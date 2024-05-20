@@ -56,3 +56,14 @@ const user = {
 let cid = 1;
 // let customerId = <number>cid //==> This is one way to do type assertion
 let customerId = cid; //==> This is another way to do type assertion
+//Functions 
+function addNum(x, y) {
+    return x + y;
+}
+console.log(`addNum(1, 2) = ${addNum(1, 2)}`);
+//Void 
+function voidFunction(msg) {
+    console.log(`Message from the function: <<${msg}>>`);
+}
+voidFunction('Hello Zagaz');
+// Question: Why ts cant accepts boolean on functions?
