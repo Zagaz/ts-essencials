@@ -130,3 +130,4 @@ let numberArray = getArray([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 stringArray.push("O'Brien");
 numberArray.push(10);
 /*numberArray.push("Sisko");*/ //---> ERROR: Argument of type 'string' is not assignable to parameter of type 'number'
+console.log(numberArray);
